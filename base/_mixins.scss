@@ -1,0 +1,15 @@
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+}
+@mixin medidas ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
+@mixin parrafos {
+    text-align: center;
+    font-style: normal;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: medium;
+}
